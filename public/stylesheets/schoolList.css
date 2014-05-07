@@ -1,0 +1,18 @@
+.school{
+display:none;
+z-index:999;
+position:absolute;
+min-width:800px;
+overflow:hidden;
+border:2px #00539d solid;
+background: rgba(234, 248, 255, 0.88);
+}
+.school .class_list{display:block}
+.school .class_list li{width:240px;text-align:center}
+.weixin{display:none;padding:30px 20px;clear:both}
+.weixin .bold{font-weight:bold}
+.weixin .weixin_info{width:400px;margin-bottom:20px;float:left;font-size:18px;}
+.weixin .weixin_info p{margin-top:5px;}
+.weixin .weixin_info p.content{text-indent:2em;line-height:150%;}
+.weixin .weixin_img{width:250px;margin-bottom:20px;float:right;}
+.weixin .weixin_img p{margin-bottom:10px;}
